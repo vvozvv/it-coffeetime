@@ -18,7 +18,7 @@ const Home: NextPage = () => {
       <main className="container">
         <MainSection>
           <div>
-            <MainTitle>IT <br/>  COFFEE <br/> TIME </MainTitle>
+            <MainTitle>IT <br/> COFFEE <br/> TIME </MainTitle>
             <Image
               src={Logo}
               alt="Picture of the author"

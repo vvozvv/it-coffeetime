@@ -1,9 +1,10 @@
 import styled from "styled-components";
+import {COLORS} from "../ constants/colors";
 
 export const MainSection = styled.div`
   padding: 70px;
-  background: var(--color-accent);
-  border-radius: var(--border-radius);
+  background: ${COLORS.primary};
+  border-radius: 15px;
   margin-top: 30px;
 `;
 

@@ -6,6 +6,7 @@ export const HeaderContainer = styled.header`
   align-items: center;
   justify-content: space-between;
   padding: 10px 20px;
+  margin-bottom: 20px;
 `;
 
 export const Account = styled.div`
