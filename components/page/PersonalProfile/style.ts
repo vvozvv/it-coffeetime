@@ -1,9 +1,11 @@
 import styled from "styled-components";
+import { COLORS } from '../../../ constants/colors';
 
 export const Container = styled.div`
   display: grid;
   grid-template-columns: 2fr 1fr;
   grid-gap: 20px;
+  margin-bottom: 20px;
 `;
 
 export const About = styled.div`
@@ -15,8 +17,8 @@ export const About = styled.div`
 
 export const Information = styled.div`
   padding: 30px;
-  background: var(--color-gray);
-  border-radius: var(--border-radius);
+  border-radius: 15px;
+  background: ${COLORS.grayDay};
 `;
 
 export const ImageBlock = styled.div``;

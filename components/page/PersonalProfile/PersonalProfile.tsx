@@ -5,6 +5,7 @@ import Link from "next/link";
 import {IProfile} from "../../../interface/profile";
 import Tags from "../../Tags/Tags";
 import MockImage from '../../../public/mock-image.jpg'
+import { H1, H3 } from '../../Paragraph/Paragraph';
 
 interface IPersonalProfile {
   profile: IProfile;
@@ -24,8 +25,8 @@ const PersonalProfile = ({ profile }: IPersonalProfile) => {
           />
         </ImageBlock>
         <div>
-          <Title>{profile.name}, {profile.age}</Title>
-          <Profession>{profile.profession},</Profession>
+          <H1>{profile.name}, {profile.age}</H1>
+          <H3 color={'grayNight'} weight={'normal'}>{profile.profession},</H3>
           <Link href={'/'}>
             <CompanyLink>{companyName}</CompanyLink>
           </Link>

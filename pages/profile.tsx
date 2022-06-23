@@ -5,6 +5,7 @@ import {PLACE_RECOMMEND, PROFILE} from "../model/profile.mock";
 import CompanyProfile from "../components/page/CompanyProfile/CompanyProfile";
 import Section from "../components/Section/Section";
 import Card from "../components/Card/Card";
+import PersonalProfile from '../components/page/PersonalProfile/PersonalProfile';
 
 const Profile = () => {
   return (

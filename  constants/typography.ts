@@ -29,3 +29,5 @@ export const Typography: ITypography = {
   lineHeightH2: '24px',
   lineHeightH3: '24px',
 };
+
+export type TypographyWeight = 'normal' | 'lighter' | 'bold';

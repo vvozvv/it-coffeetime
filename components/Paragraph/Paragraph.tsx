@@ -1,12 +1,14 @@
 import React, {ReactNode} from 'react';
 import {IColorsPalette} from "../../ constants/colors";
 import {H1Style, H2Style, H3Style, P} from "./style";
+import { TypographyWeight } from '../../ constants/typography';
 
 // type IColor = COLORS.text | CO
 
 export interface IParagraph {
   color?: IColorsPalette;
   children: ReactNode;
+  weight?: TypographyWeight;
   size?: number;
   lineHeight?: number;
 }

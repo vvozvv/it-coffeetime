@@ -21,10 +21,11 @@ export const H2Style = styled.h2(() => `
     font-family: ${theme.fontSizes.fontFamily};
 `);
 
-export const H3Style = styled.h3(() => `
-    color: ${COLORS.text};
+export const H3Style = styled.h3(({color, weight}: IParagraph) => `
+    color: ${color ? COLORS[color] : COLORS.text};
     font-size: ${theme.fontSizes.fontSizeH3};
     line-height: ${theme.fontSizes.lineHeight3};
+    font-weight: ${color ? weight : 300};
     font-family: ${theme.fontSizes.fontFamily};
 `);
 
